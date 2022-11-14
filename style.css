@@ -1,0 +1,38 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-image: url(amg-gt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+padding: 20px;
+font-size: 22px;
+}
+p{
+    color: white;
+}
+ul {
+    display: flex;
+    color: white;
+}
+ul li{
+    margin-right:15px;
+}
+h1{
+    color: white;
+}
+.center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50% , -50%);
+}
